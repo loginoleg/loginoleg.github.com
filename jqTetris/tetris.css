@@ -1,0 +1,48 @@
+table#tetris_tbl {
+	border-width: 4px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: black;
+}
+
+table#tetris_tbl td{
+	width: 10px;
+	height: 10px;
+	border-width: 1px;
+	/*border-spacing: 2px;*/
+	border-style: solid;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: gray;
+}
+
+
+table#tetris_tbl td.selected{
+	width: 10px;
+	height: 10px;
+	border-width: 1px;
+	/*border-spacing: 2px;*/
+	border-style: solid;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: black;
+}
+
+
+table#tetris_tbl_db td.selected_dbug{
+	width: 10px;
+	height: 10px;
+	border-width: 1px;
+	/*border-spacing: 2px;*/
+	border-style: solid;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: red;
+}
+
+#main_table {
+	float: left;
+	margin: 0px 20px;
+}
